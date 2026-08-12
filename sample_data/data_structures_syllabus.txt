@@ -1,0 +1,37 @@
+NEHRU INSTITUTE OF ENGINEERING AND TECHNOLOGY
+CS2503 — DATA STRUCTURES
+
+UNIT I — LINEAR LISTS
+1. Abstract data types
+2. Array representation
+3. Singly linked lists
+4. Doubly linked lists
+5. Circular linked lists
+
+UNIT II — STACKS AND QUEUES
+1. Stack abstract data type
+2. Stack operations and array implementation
+3. Expression conversion and evaluation
+4. Queue and circular queue operations
+5. Priority queues and dequeues
+
+UNIT III — TREES
+1. Tree terminology and traversal
+2. Binary trees
+3. Binary search trees
+4. AVL tree rotations
+5. Heap and priority queue implementation
+
+UNIT IV — GRAPHS
+1. Graph terminology and representations
+2. Breadth-first search
+3. Depth-first search
+4. Minimum spanning trees
+5. Shortest path algorithms
+
+UNIT V — SORTING, SEARCHING AND HASHING
+1. Linear and binary search
+2. Insertion, selection and bubble sort
+3. Merge sort and quick sort
+4. Hash functions and collision resolution
+5. Time and space complexity analysis

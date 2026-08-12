@@ -1,0 +1,36 @@
+NEHRU INSTITUTE OF ENGINEERING AND TECHNOLOGY
+CS2502 — PYTHON PROGRAMMING
+
+UNIT I — PYTHON FOUNDATIONS
+1. Python interpreter and program execution
+2. Identifiers, variables and built-in data types
+3. Operators and expressions
+4. Input, output and formatted strings
+
+UNIT II — CONTROL FLOW AND FUNCTIONS
+1. Conditional statements
+2. For and while loops
+3. Function definition and invocation
+4. Positional, keyword and default arguments
+5. Recursion and lambda expressions
+
+UNIT III — COLLECTIONS
+1. Lists and list comprehensions
+2. Tuples and sequence operations
+3. Sets and set operations
+4. Dictionaries and dictionary methods
+5. Strings and regular expressions
+
+UNIT IV — OBJECT-ORIENTED PROGRAMMING
+1. Classes and objects
+2. Instance and class attributes
+3. Inheritance and method overriding
+4. Encapsulation and polymorphism
+5. Exception handling
+
+UNIT V — FILES AND DATA PROCESSING
+1. Text and binary files
+2. Context managers
+3. CSV data processing
+4. Modules and packages
+5. Testing and debugging Python programs

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Staff sign in · NIET AI-QPG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="auth-page">
+  <a class="skip-link" href="#login-form">Skip to sign in</a>
+  <aside class="auth-story">
+    <a href="/" class="brand brand-light"><span class="brand-mark">N</span><span><strong>NIET</strong><small>AI Question Paper Generator</small></span></a>
+    <div class="auth-quote"><span class="eyebrow gold"><i></i> Authorized academic workspace</span><h1>Rigorous papers begin with <em>trusted sources.</em></h1><p>Upload, structure, generate, validate, and export—all inside one private faculty workspace.</p></div>
+    <div class="auth-process"><div class="active"><span>1</span><p><b>Ground</b><small>Syllabus &amp; portion</small></p></div><i></i><div><span>2</span><p><b>Generate</b><small>Pattern-aware</small></p></div><i></i><div><span>3</span><p><b>Validate</b><small>Source-traced</small></p></div></div>
+    <small class="auth-location">Nehru Institute of Engineering and Technology · Coimbatore</small>
+  </aside>
+  <main class="auth-main">
+    <a href="/" class="back-link">← Back to website</a>
+    <div class="auth-card">
+      <div class="auth-heading"><div class="brand-mark mobile-mark">N</div><span class="kicker">Secure staff portal</span><h2 id="auth-title">Welcome back</h2><p id="auth-subtitle">Sign in with credentials provided by the administrator.</p></div>
+      <div class="role-toggle" aria-label="Login role"><button type="button" data-role="teacher" class="active">Teacher / Staff</button><button type="button" data-role="admin">Administrator</button></div>
+      <form id="login-form" novalidate>
+        <label for="username">Username or email</label>
+        <div class="input-wrap"><span>＠</span><input id="username" name="username" autocomplete="username" placeholder="name@niet.edu" required minlength="3"></div>
+        <div class="label-row"><label for="password">Password</label><button type="button" id="forgot-link" class="text-button">Forgot password?</button></div>
+        <div class="input-wrap"><span>⌑</span><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required minlength="8"><button class="password-toggle" type="button" aria-label="Show password">Show</button></div>
+        <p class="form-error" id="login-error" role="alert"></p>
+        <button type="submit" class="btn btn-primary btn-block btn-lg" id="login-button"><span>Sign in securely</span><i>→</i></button>
+      </form>
+      <div class="demo-note"><strong>Development access</strong><p>Teacher: teacher@niet.edu / Teacher123!<br>Admin: admin@niet.edu / ChangeMe123!</p><small>Change bootstrap credentials before deployment.</small></div>
+      <p class="auth-help">Access is restricted to authorized NIET staff. Need help? Contact your academic administrator.</p>
+    </div>
+  </main>
+  <dialog id="forgot-dialog" class="modal"><form method="dialog" id="forgot-form"><div class="modal-head"><div><span class="kicker">Account recovery</span><h3>Request a password reset</h3></div><button value="cancel" aria-label="Close">×</button></div><p>Enter your institutional email. If it matches an active account, an administrator will receive your request.</p><label for="forgot-email">Institutional email</label><input id="forgot-email" type="email" required placeholder="name@niet.edu"><p id="forgot-message" class="form-message"></p><div class="modal-actions"><button value="cancel" class="btn btn-outline">Cancel</button><button type="submit" class="btn btn-primary">Send request</button></div></form></dialog>
+  <script src="js/login.js" defer></script>
+</body>
+</html>

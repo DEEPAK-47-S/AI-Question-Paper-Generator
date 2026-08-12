@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime / secrets
+.env
+*.db
+*.sqlite3
+uploads/*
+!uploads/.gitkeep
+generated_papers/*
+!generated_papers/.gitkeep
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

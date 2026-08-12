@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><title>Academic workspace · NIET AI-QPG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="portal">
+  <a class="skip-link" href="#workspace">Skip to workspace</a>
+  <div id="app-loader" class="app-loader"><span class="brand-mark">N</span><div class="spinner"></div><p>Securing your workspace…</p></div>
+  <aside class="sidebar" id="sidebar">
+    <a href="/" class="brand brand-light sidebar-brand"><span class="brand-mark">N</span><span><strong>NIET</strong><small>AI-QPG</small></span></a>
+    <button class="sidebar-close" id="sidebar-close" aria-label="Close navigation">×</button>
+    <nav id="sidebar-nav" aria-label="Workspace navigation"></nav>
+    <div class="sidebar-security"><span>⌾</span><div><strong>Private workspace</strong><small>Access is audit logged</small></div></div>
+    <button id="logout-button" class="sidebar-user"><span class="avatar" id="user-avatar">NA</span><span><strong id="sidebar-name">Loading…</strong><small id="sidebar-role">Staff</small></span><i>↪</i></button>
+  </aside>
+  <main id="workspace" class="workspace">
+    <header class="topbar">
+      <button id="menu-button" class="icon-button mobile-menu" aria-label="Open navigation">☰</button>
+      <div><p class="breadcrumb"><span>NIET AI-QPG</span> / <b id="page-breadcrumb">Dashboard</b></p><h1 id="page-title">Dashboard</h1></div>
+      <div class="topbar-actions"><span id="provider-badge" class="provider-badge">Grounded engine</span><button id="theme-button" class="icon-button" aria-label="Toggle dark mode">◐</button><button class="icon-button notification-button" aria-label="Notifications">◌</button><span class="avatar" id="top-avatar">NA</span></div>
+    </header>
+    <div id="page-content" class="page-content" aria-live="polite"></div>
+  </main>
+  <div id="toast-region" class="toast-region" aria-live="polite"></div>
+  <div id="processing-overlay" class="processing-overlay" hidden>
+    <section class="processing-card" role="status" aria-live="polite"><div class="processing-orbit"><span class="brand-mark">N</span><i></i></div><span class="kicker">Academic intelligence pipeline</span><h2 id="processing-title">Analyzing your materials</h2><p id="processing-stage">Preparing…</p><div class="progress-track"><i id="processing-bar"></i></div><strong id="processing-percent">0%</strong><ol id="processing-steps"></ol><button id="processing-close" class="btn btn-outline" hidden>Close</button></section>
+  </div>
+  <dialog id="source-dialog" class="modal source-modal"><form method="dialog"><div class="modal-head"><div><span class="kicker">Question provenance</span><h3>Why was this question generated?</h3></div><button value="cancel" aria-label="Close">×</button></div><div id="source-content"></div><div class="modal-actions"><button value="cancel" class="btn btn-primary">Done</button></div></form></dialog>
+  <dialog id="edit-dialog" class="modal"><form method="dialog" id="edit-question-form"><div class="modal-head"><div><span class="kicker">Teacher editor</span><h3>Edit question</h3></div><button value="cancel" aria-label="Close">×</button></div><input type="hidden" id="edit-question-id"><label for="edit-question-text">Question</label><textarea id="edit-question-text" rows="5" required></textarea><div class="form-grid cols-3"><label>Marks<input id="edit-question-marks" type="number" min="1" required></label><label>Position<input id="edit-question-position" type="number" min="1" required></label><label>Difficulty<select id="edit-question-difficulty"><option>Easy</option><option>Medium</option><option>Hard</option></select></label><label>Question type<input id="edit-question-type"></label></div><div class="form-grid"><label>Unit<input id="edit-question-unit"></label><label>Topic<input id="edit-question-topic"></label></div><p class="inline-warning">Manual edits are marked for teacher review and lower the automated confidence indicator.</p><div class="modal-actions"><button value="cancel" class="btn btn-outline">Cancel</button><button type="submit" class="btn btn-primary">Save changes</button></div></form></dialog>
+  <dialog id="confirm-dialog" class="modal modal-sm"><form method="dialog"><div class="confirm-icon">!</div><h3 id="confirm-title">Confirm action</h3><p id="confirm-message"></p><div class="modal-actions"><button value="cancel" class="btn btn-outline">Cancel</button><button value="confirm" class="btn btn-danger">Confirm</button></div></form></dialog>
+  <script src="js/portal.js" defer></script>
+</body>
+</html>

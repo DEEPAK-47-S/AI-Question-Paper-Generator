@@ -1,0 +1,37 @@
+NEHRU INSTITUTE OF ENGINEERING AND TECHNOLOGY
+MA2501 — ENGINEERING MATHEMATICS
+
+UNIT I — MATRICES
+1. Eigenvalues and eigenvectors
+2. Cayley-Hamilton theorem
+3. Diagonalization of matrices
+4. Quadratic forms
+5. Orthogonal transformation
+
+UNIT II — DIFFERENTIAL CALCULUS
+1. Functions of several variables
+2. Partial derivatives
+3. Total derivative
+4. Taylor series expansion
+5. Maxima and minima
+
+UNIT III — INTEGRAL CALCULUS
+1. Double integrals
+2. Change of order of integration
+3. Triple integrals
+4. Area and volume applications
+5. Beta and Gamma functions
+
+UNIT IV — DIFFERENTIAL EQUATIONS
+1. First-order differential equations
+2. Higher-order linear differential equations
+3. Method of variation of parameters
+4. Cauchy-Euler equations
+5. Applications to electrical circuits
+
+UNIT V — PROBABILITY AND STATISTICS
+1. Random variables
+2. Probability distributions
+3. Mathematical expectation
+4. Correlation and regression
+5. Tests of significance

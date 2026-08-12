@@ -1,0 +1,44 @@
+NEHRU INSTITUTE OF ENGINEERING AND TECHNOLOGY
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+CS2501 — C PROGRAMMING — REGULATION 2025
+
+COURSE OBJECTIVES
+Understand procedural programming, solve computational problems, and implement tested C programs.
+
+UNIT I — BASICS OF C PROGRAMMING
+1. Structure of a C program
+2. Variables and constants
+3. Data types and type conversion
+4. Arithmetic, relational and logical operators
+5. Formatted input and output
+
+UNIT II — CONTROL STATEMENTS AND FUNCTIONS
+1. Selection statements
+2. For, while and do-while loops
+3. Break and continue statements
+4. Function declaration and definition
+5. Parameter passing and recursion
+
+UNIT III — ARRAYS, STRINGS AND POINTERS
+1. One-dimensional and multidimensional arrays
+2. Character arrays and string operations
+3. Pointer declaration and arithmetic
+4. Pointers with arrays
+5. Function pointers
+
+UNIT IV — USER-DEFINED TYPES AND FILES
+1. Structures and nested structures
+2. Unions and enumerations
+3. Text and binary file handling
+4. Sequential and random file access
+5. Command-line arguments
+
+UNIT V — DYNAMIC MEMORY AND LINKED LISTS
+1. malloc, calloc, realloc and free
+2. Dynamic arrays
+3. Self-referential structures
+4. Singly linked list creation
+5. Linked list insertion and deletion
+
+COURSE OUTCOMES
+Develop modular C programs, select suitable data representations, and evaluate program correctness.
